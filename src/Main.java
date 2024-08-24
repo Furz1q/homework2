@@ -84,7 +84,7 @@ public class Main {
         short optimalDays = (short) ((dayOne + dayTwo) / 2);
         System.out.println("Если спортсмен будет терять каждый день по 250 грамм, то ему понадобится " + dayOne + " дней");
         System.out.println("Если спортсмен будет терять каждый день по 500 грамм, то ему понадобится " + dayTwo + " дней");
-        System.out.println("В среднем спотсмену понадобится " + optimalDays + " денКо");
+        System.out.println("В среднем спотсмену понадобится " + optimalDays + " день");
 
         System.out.println("Задание 8");
         int masha = 67760;
