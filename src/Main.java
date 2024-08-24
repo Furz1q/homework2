@@ -79,12 +79,12 @@ public class Main {
         byte loseWeight = 7;
         float firstLoss = (float) 250 / 1000;
         float secondLoss = (float) 500 / 1000;
-        float dayOne = (loseWeight * firstLoss);
-        float dayTwo = (loseWeight * secondLoss);
-        float optimalDays = (dayOne + dayTwo) / 2 ;
+        short dayOne = (short) (loseWeight / firstLoss);
+        short dayTwo = (short) (loseWeight / secondLoss);
+        short optimalDays = (short) ((dayOne + dayTwo) / 2);
         System.out.println("Если спортсмен будет терять каждый день по 250 грамм, то ему понадобится " + dayOne + " дней");
         System.out.println("Если спортсмен будет терять каждый день по 500 грамм, то ему понадобится " + dayTwo + " дней");
-        System.out.println("В среднем спотсмену понадобится " + optimalDays + " дней");
+        System.out.println("В среднем спотсмену понадобится " + optimalDays + " денКо");
 
         System.out.println("Задание 8");
         int masha = 67760;
