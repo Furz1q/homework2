@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Домашнее задание 2");
+
         System.out.println("Задание 1");
         int parrot = 96775;
         System.out.println("Значение переменное parrot с типом int равно " + parrot);
